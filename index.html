@@ -32,7 +32,7 @@
             </div>
             <div class="flex justify-center items-center bg-[#41ff6b1a] rounded-[50px] 
                          gap-2 p-2 md:p-3 w-[70px] h-[40px] md:w-[106px] md:h-[52px] font-extrabold">
-                <p>100</p>
+                <p><span id="total-coin">100</span></p>
                 <img src="./assets/coin.png" alt=""
                 class="w-[20px] h-[20px] md:w-[30px] md:h-[30px]">
             </div>
@@ -55,13 +55,14 @@
     </div>
     
     <!-- Profile -->
-    <section class="font-hind-madurai grid md:grid-cols-4 gap-[30px] 
+    <section id="service-container" class="font-hind-madurai grid md:grid-cols-4 gap-[30px] 
     px-[30px] py-[30px] md:px-[60px] ">
-        <div class="md:col-span-3 grid md:grid-cols-3 gap-[30px]">
+        <div id="service-box" class="md:col-span-3 grid md:grid-cols-3 gap-[30px]">
+            <!-- divbox -->
             <div class=" rounded-[12px] bg-white p-[32px] card-shadow">
                 <div class="flex justify-between items-center ">
                    <div class="bg-[#ffe3e2] w-[60px] h-[60px] flex justify-center items-center rounded-xl">
-                        <img src="./assets/emergency.png" alt="" class="w-[32px] h-[32px]">
+                        <img src="./assets/emergency.png" alt="emergency.png" class="w-[32px] h-[32px]">
                    </div>
                    <div id="click-heart fony-semibold">
                         <i class="fa-regular fa-heart"></i>
@@ -78,7 +79,7 @@
                         <i class="fa-regular fa-copy"></i>
                                Copy
                     </button>
-                    <button id="click-call" class="btn bg-[#00a63e] hover:bg-white hover:text-[#00a63e] text-white rounded-[8px]">
+                    <button  class="click-call btn bg-[#00a63e] hover:bg-white hover:text-[#00a63e] text-white rounded-[8px]">
                         <i class="fa-solid fa-phone"></i>
                                Call
                     </button>
@@ -104,7 +105,7 @@
                         <i class="fa-regular fa-copy"></i>
                                Copy
                     </button>
-                    <button id="click-call2" class="btn bg-[#00a63e] hover:bg-white hover:text-[#00a63e] text-white rounded-[8px]">
+                    <button class="click-call btn bg-[#00a63e] hover:bg-white hover:text-[#00a63e] text-white rounded-[8px]">
                         <i class="fa-solid fa-phone"></i>
                                Call
                     </button>
@@ -130,7 +131,7 @@
                         <i class="fa-regular fa-copy"></i>
                                Copy
                     </button>
-                    <button id="click-call3" class="btn bg-[#00a63e] hover:bg-white hover:text-[#00a63e] text-white rounded-[8px]">
+                    <button class="click-call btn bg-[#00a63e] hover:bg-white hover:text-[#00a63e] text-white rounded-[8px]">
                         <i class="fa-solid fa-phone"></i>
                                Call
                     </button>
@@ -156,7 +157,7 @@
                         <i class="fa-regular fa-copy"></i>
                                Copy
                     </button>
-                    <button id="click-call4" class="btn bg-[#00a63e] hover:bg-white hover:text-[#00a63e] text-white rounded-[8px]">
+                    <button   class="click-call btn bg-[#00a63e] hover:bg-white hover:text-[#00a63e] text-white rounded-[8px]">
                         <i class="fa-solid fa-phone"></i>
                                Call
                     </button>
@@ -167,7 +168,7 @@
                    <div class="bg-[#ffe3e2] w-[60px] h-[60px] flex justify-center items-center rounded-xl">
                         <img src="./assets/police.png" alt="" class="w-[32px] h-[32px]">
                    </div>
-                   <div id="click-heart5">
+                   <div class="click-heart">
                     <i class="fa-regular fa-heart"></i>
                    </div>
                 </div>
@@ -182,7 +183,7 @@
                         <i class="fa-regular fa-copy"></i>
                                Copy
                     </button>
-                    <button  id="click-call5" class="btn bg-[#00a63e] hover:bg-white hover:text-[#00a63e] text-white rounded-[8px]">
+                    <button  class="click-call btn bg-[#00a63e] hover:bg-white hover:text-[#00a63e] text-white rounded-[8px]">
                         <i class="fa-solid fa-phone"></i>
                                Call
                     </button>
@@ -208,7 +209,7 @@
                         <i class="fa-regular fa-copy"></i>
                                Copy
                     </button>
-                    <button id="click-call6" class="btn bg-[#00a63e] hover:bg-white hover:text-[#00a63e] text-white rounded-[8px]">
+                    <button class="click-call btn bg-[#00a63e] hover:bg-white hover:text-[#00a63e] text-white rounded-[8px]">
                         <i class="fa-solid fa-phone"></i>
                                Call
                     </button>
@@ -234,7 +235,7 @@
                         <i class="fa-regular fa-copy"></i>
                                Copy
                     </button>
-                    <button  id="click-call7" class="btn bg-[#00a63e] hover:bg-white hover:text-[#00a63e] text-white rounded-[8px]">
+                    <button class="click-call btn bg-[#00a63e] hover:bg-white hover:text-[#00a63e] text-white rounded-[8px]">
                         <i class="fa-solid fa-phone"></i>
                                Call
                     </button>
@@ -260,7 +261,7 @@
                         <i class="fa-regular fa-copy"></i>
                                Copy
                     </button>
-                    <button id="click-call8" class="btn bg-[#00a63e] hover:bg-white hover:text-[#00a63e] text-white rounded-[8px]">
+                    <button class="click-call btn bg-[#00a63e] hover:bg-white hover:text-[#00a63e] text-white rounded-[8px]">
                         <i class="fa-solid fa-phone"></i>
                                Call
                     </button>
@@ -286,7 +287,7 @@
                         <i class="fa-regular fa-copy"></i>
                                Copy
                     </button>
-                    <button  id="click-call" class="btn bg-[#00a63e] hover:bg-white hover:text-[#00a63e] text-white rounded-[8px]">
+                    <button class="click-call btn bg-[#00a63e] hover:bg-white hover:text-[#00a63e] text-white rounded-[8px]">
                         <i class="fa-solid fa-phone"></i>
                                Call
                     </button>
@@ -296,21 +297,24 @@
         </div>
 
         <!-- call history -->
-        <div class="card-shadow p-[24px]  rounded-[12px]  bg-white ">
+        <aside id="cart-box" class="card-shadow p-[24px] rounded-[12px] bg-white text-xl">
             <div class="flex justify-between items-center mb-4">
                 <div class="flex justify-center items-center gap-1">
                     <i class="fa-regular fa-clock"></i>
-                    <h2>Call History</h2>
+                    <h2 class="font-bold ">Call History</h2>
                 </div>
                 <div>
-                    <button class="bg-[#00A63E] text-white font-medium rounded-[50px] 
+                    <button id="click-clear" class="bg-[#00A63E] text-white font-medium rounded-[50px] 
                           w-[100px] h-[40px]">
                          Clear
                     </button>
                 </div>
             </div>
+            <div id="cart-container"> 
+                
+            </div>
 
-        </div>
+        </aside>
     </section>
     
 
