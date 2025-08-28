@@ -45,15 +45,48 @@
     </nav>
 
     <!-- banner section -->
-    <section class="border-2">
-        <div class="bg-gradient-to-r from-[rgba(1,49,34,1)] via-[rgba(0,103,71,1)] to-[rgba(1,50,35,1)]
-             flex flex-col justify-center items-center gap-2.5 ">
+    <div class="font-hind-madurai bg-gradient-to-r from-[rgba(1,49,34,1)] via-[rgba(0,103,71,1)] to-[rgba(1,50,35,1)]
+             flex flex-col justify-center items-center text-center gap-2.5 text-white
+             px-[30px] py-[12px] md:px-[60px] ">
             <img src="./assets/logo-dark.png" alt=""
             class="w-[92px] h-[92px]">
-            <h2>জরুরি সেবা ডিরেক্টরি</h2>
-            <p>Government Emergency Services at Your Fingertip – A Project by Government of the People’s Republic of Bangladesh</p>
+            <h2 class="font-bold text-[40px]">জরুরি সেবা ডিরেক্টরি</h2>
+            <p class="font-semibold text-sm md:text-[20px]">Government Emergency Services at Your Fingertip – A Project by Government of the People’s Republic of Bangladesh</p>
+    </div>
+    
+    <!-- Profile -->
+    <section class="font-hind-madurai md:grid md:grid-cols-3 px-[30px] py-[12px] md:px-[60px] ">
+        <div class="md:col-span-2 ">
+            <div class="border-2 bg-white p-[32px]">
+                <div class="flex justify-between items-center ">
+                   <div class="bg-[#ffe3e2] w-[60px] h-[60px] flex justify-center items-center rounded-xl">
+                        <img src="./assets/emergency.png" alt="" class="w-[32px] h-[32px]">
+                   </div>
+                   <i class="fa-regular fa-heart"></i>
+                </div>
+                <div>
+                    <h2 class="mt-4 font-black ">জাতীয় জরুরি সেবা</h2>
+                    <p class="mt-[2px] font-medium text-[#5c5c5c] ">National Emergency</p>
+                    <h2 class="mt-[10px] text-[24px] font-black">999</h2>
+                    <button class="px-4.5 py-1.5 button">সার্বজনীন</button>
+                </div>
+                <div class="mt-5 grid grid-cols-2 gap-2.5">
+                    <button class="btn bg-white text-[#5C5C5C] border border-solid-[#d4d6d5]">
+                        <i class="fa-regular fa-copy"></i>
+                               Copy
+                    </button>
+                    <button class="btn bg-[#00a63e] text-white  ">
+                        <img src="./assets/icon-call.png" alt="" class="w-4 h-4 ">
+                               Call
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div>
+            call
         </div>
     </section>
+    
 
 
 
