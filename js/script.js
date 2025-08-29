@@ -4,9 +4,17 @@ document.getElementById("click-heart").addEventListener('click', function(e){
     e.preventDefault()
     //console.log("heart click")
     const addHeartCount = document.getElementById('add-heartCount');
-    const countValue = parseInt(addHeartCount.textContent);
+    const countValue = parseInt(addHeartCount.innerText);
 
-    addHeartCount.textContent = countValue+1;
+    addHeartCount.innerText = countValue+1;
+})
+document.getElementById("click-heart1").addEventListener('click', function(e){
+    e.preventDefault()
+    //console.log("heart click")
+    const addHeartCount = document.getElementById('add-heartCount');
+    const countValue = parseInt(addHeartCount.innerText);
+
+    addHeartCount.innerText = countValue+1;
 })
 
 
