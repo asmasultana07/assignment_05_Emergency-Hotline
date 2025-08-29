@@ -8,7 +8,7 @@ document.getElementById("click-heart").addEventListener('click', function(e){
 
     addHeartCount.innerText = countValue+1;
 })
-document.getElementById("click-heart1").addEventListener('click', function(e){
+document.getElementById("click-heart2").addEventListener('click', function(e){
     e.preventDefault()
     //console.log("heart click")
     const addHeartCount = document.getElementById('add-heartCount');
@@ -16,7 +16,62 @@ document.getElementById("click-heart1").addEventListener('click', function(e){
 
     addHeartCount.innerText = countValue+1;
 })
+document.getElementById("click-heart3").addEventListener('click', function(e){
+    e.preventDefault()
+    //console.log("heart click")
+    const addHeartCount = document.getElementById('add-heartCount');
+    const countValue = parseInt(addHeartCount.innerText);
 
+    addHeartCount.innerText = countValue+1;
+})
+document.getElementById("click-heart4").addEventListener('click', function(e){
+    e.preventDefault()
+    //console.log("heart click")
+    const addHeartCount = document.getElementById('add-heartCount');
+    const countValue = parseInt(addHeartCount.innerText);
+
+    addHeartCount.innerText = countValue+1;
+})
+document.getElementById("click-heart5").addEventListener('click', function(e){
+    e.preventDefault()
+    //console.log("heart click")
+    const addHeartCount = document.getElementById('add-heartCount');
+    const countValue = parseInt(addHeartCount.innerText);
+
+    addHeartCount.innerText = countValue+1;
+})
+document.getElementById("click-heart6").addEventListener('click', function(e){
+    e.preventDefault()
+    //console.log("heart click")
+    const addHeartCount = document.getElementById('add-heartCount');
+    const countValue = parseInt(addHeartCount.innerText);
+
+    addHeartCount.innerText = countValue+1;
+})
+document.getElementById("click-heart7").addEventListener('click', function(e){
+    e.preventDefault()
+    //console.log("heart click")
+    const addHeartCount = document.getElementById('add-heartCount');
+    const countValue = parseInt(addHeartCount.innerText);
+
+    addHeartCount.innerText = countValue+1;
+})
+document.getElementById("click-heart8").addEventListener('click', function(e){
+    e.preventDefault()
+    //console.log("heart click")
+    const addHeartCount = document.getElementById('add-heartCount');
+    const countValue = parseInt(addHeartCount.innerText);
+
+    addHeartCount.innerText = countValue+1;
+})
+document.getElementById("click-heart9").addEventListener('click', function(e){
+    e.preventDefault()
+    //console.log("heart click")
+    const addHeartCount = document.getElementById('add-heartCount');
+    const countValue = parseInt(addHeartCount.innerText);
+
+    addHeartCount.innerText = countValue+1;
+})
 
 // call button function
 
