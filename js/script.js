@@ -3,6 +3,14 @@ function getElement(id){
     const element = document.getElementById(id);
     return element;
 }
+// click-clear
+getElement("cart-box").addEventListener('click', function(e){
+    if(e.target.className.includes("click-clear")){
+          getElement.innerHTML = " ";
+    }
+});
+
+
 // call button work
 getElement("service-box").addEventListener('click', function(e){
     if(e.target.className.includes("click-call")){
@@ -27,7 +35,7 @@ getElement("service-box").addEventListener('click', function(e){
             let now =new Date();
             let localTime = now.toLocaleDateString();
 
-            console.log(localTime);
+            // console.log(localTime);
             const callContainer = getElement("cart-container");
             const newCallAdd = document.createElement("div");
             newCallAdd.innerHTML = ` 
@@ -47,7 +55,7 @@ getElement("service-box").addEventListener('click', function(e){
     }
 });
 
-// heart count work
+// copy count work
 getElement("service-box").addEventListener('click', function(e){
     if(e.target.className.includes("click-copy")){
         // console.log("second click");
@@ -60,6 +68,22 @@ getElement("service-box").addEventListener('click', function(e){
     
 
 })
+
+// copy heart work
+getElement("service-box").addEventListener('click', function(e){
+    if(e.target.className.includes("click-heart")){
+        // console.log("second click");
+        const targetBtn = e.target;
+        // const serviceHeart = targetBtn.parentNode.parentNode.children[1].children[2].innerText;
+        const totalCount = getElement("add-heartCount").innerText;
+        const currentCount = Number(totalCount) + 1;
+        getElement("dd-heartCount").innerText = currentCount;
+        
+    }
+    
+
+});
+
 // // heart count
 // document.getElementById("click-heart").addEventListener('click', function(e){
 //     e.preventDefault()
