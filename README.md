@@ -1,7 +1,7 @@
 
 # <img src="./assets/logo.png" width=40> Emergency Hotline
 
-> build an attractive & simple product shop with Responsive web design
+> build an attractive & simple emergency hotline with responsive web design
 >   - 📂 GitHub Repository : https://github.com/asmasultana07/assignment_05_Emergency-Hotline
 >   - 🌐 Live Link :  https://asmasultana07.github.io/assignment_05_Emergency-Hotline/
 ---
@@ -145,7 +145,7 @@ How to get current local time in js
 | Layer                  | Technology                    |
 |--------------          |-------------------------------|
 | Frontend               | HTML, CSS, Tailwind, DaisyUI & DOM |
-| Programming language   | JavaScript ( Vanilla )  |
+| Programming language   | JavaScript (Vanilla)  |
 | Version Ctrl           | Git, GitHub       |
 
 
