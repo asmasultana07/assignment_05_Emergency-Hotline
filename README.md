@@ -1,11 +1,10 @@
-## WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-005
 
-### 📅 Deadline For 60 marks: 29th August, 2025 (11:59 pm ⏱️)
+# <img src="./assets/logo.png" width=40> Emergency Hotline
 
-### 📅 No Deadline For 50 marks
-
-### 📅 Deadline For 30 marks: Any time after 29th August.
-
+> build an attractive & simple product shop with Responsive web design
+>   - 📂 GitHub Repository : https://github.com/asmasultana07/assignment_05_Emergency-Hotline
+>   - 🌐 Live Link :  https://asmasultana07.github.io/assignment_05_Emergency-Hotline/
+---
 ---
 
 ## ✅ Main Requirements (50 Marks)
@@ -142,9 +141,13 @@ How to get current local time in js
 
 ## ⚙️ Technology Stack
 
-- HTML
-- CSS ( Vanilla , Tailwind CSS , DaisyUI , Others - wheatever you like )
-- JavaScript ( Vanilla only. No Framework / Library Allowed )
+
+| Layer                  | Technology                    |
+|--------------          |-------------------------------|
+| Frontend               | HTML, CSS, Tailwind, DaisyUI & DOM |
+| Programming language   | JavaScript ( Vanilla )  |
+| Version Ctrl           | Git, GitHub       |
+
 
 ---
 
@@ -155,11 +158,5 @@ How to get current local time in js
 
 ---
 
-## 🔗 What to Submit
-
-- 📂 **GitHub Repository**
-- 🌐 **Live Link**
-
----
 
 # Let's Code and Achieve your Dream 🎯
